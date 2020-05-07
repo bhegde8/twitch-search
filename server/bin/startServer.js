@@ -6,12 +6,7 @@
 const debug = require('debug')('twitch-search-backend:server');
 const http = require('http');
 
-const app = require('../server/app');
-
-/**
- * Load environment variables from .env
- */
-require('dotenv').config();
+const app = require('../app');
 
 /**
  * Get the port from the environment and set it for Express.
