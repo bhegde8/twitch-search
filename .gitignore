@@ -12,4 +12,7 @@ node_modules/
 # Optional eslint cache
 .eslintcache
 
+# Builds
+dist/
+
 # Note: in this case, don't gitignore .env to make it easier to run the app

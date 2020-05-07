@@ -1,7 +1,7 @@
 {
-  "name": "twitch-search",
+  "name": "twitch-search-backend",
   "version": "0.0.0",
-  "description": "Frontend & backend for a simple Twitch channel search app",
+  "description": "Backend for a simple Twitch channel search app",
   "private": true,
   "main": "app.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -18,6 +19,9 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.0"
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
