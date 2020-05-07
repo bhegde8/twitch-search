@@ -1,11 +1,11 @@
 {
-  "name": "twitch-search-backend",
+  "name": "twitch-search",
   "version": "0.0.0",
-  "description": "Backend for my Streamforge Twitch search project",
+  "description": "Frontend & backend for a simple Twitch channel search app",
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/start.js",
+    "server": "node ./bin/startServer.js",
     "lint": "./node_modules/.bin/eslint . --ext .js"
   },
   "dependencies": {
@@ -18,9 +18,6 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-config-airbnb": "^18.0.0"
   }
 }

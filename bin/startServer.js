@@ -6,7 +6,7 @@
 const debug = require('debug')('twitch-search-backend:server');
 const http = require('http');
 
-const app = require('../app');
+const app = require('../server/app');
 
 /**
  * Load environment variables from .env
