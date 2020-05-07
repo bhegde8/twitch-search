@@ -24,7 +24,7 @@ const app = express();
  * Configure express middleware
  */
 app.use(cors({
-    origin: `${process.env.FRONTEND_HOST}:${process.env.FRONTEND_PORT}`,
+  origin: `${process.env.FRONTEND_HOST}:${process.env.FRONTEND_PORT}`,
 }));
 app.use(logger('dev'));
 app.use(express.json());
