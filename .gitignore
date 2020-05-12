@@ -15,4 +15,5 @@ node_modules/
 # Builds
 dist/
 
-# Note: in this case, don't gitignore .env to make it easier to run the app
+# Environment Variables
+.env
